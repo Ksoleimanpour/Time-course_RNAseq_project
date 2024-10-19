@@ -110,7 +110,7 @@ which(rownames(t) == "ENSG00000178977.4")
 timepoint_expression_value_fdr_0.01 <- as.data.frame(t)
 write.csv(timepoint_expression_value_fdr_0.01, file = "timepoint_expression_value_fdr_0.01.csv", row.names = TRUE)
 
-# Check Sameen's lncRNA "ENSG00000178977.4"
+# Check lncRNA "ENSG00000178977.4"
 row_index <- which(rownames(t) == "ENSG00000178977.4")
 print(t[row_index, ])
 
